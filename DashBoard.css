@@ -1,0 +1,1054 @@
+.DashBoard {
+  width: 1659px;
+  height: 1024px;
+  position: relative;
+  background: #F5F5F5;
+
+}
+
+/**/
+.Navigation {
+  width: 280px;
+  height: 944px;
+  left: 40px;
+  top: 40px;
+  position: absolute;
+  
+}
+/*1 */
+.LeftSide {
+  width: 280px;
+  height: 944px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: rgb(0, 0, 0);
+  border-radius: 30px;
+}
+/*1 */
+.Help {
+  left: 50px;
+  top: 830px;
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+/*1 */
+.ContactUs {
+  left: 50px;
+  top: 867px;
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+/*1 */
+.Settings {
+  left: 88px;
+  top: 412px;
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+/*1 */
+.Users {
+  left: 88px;
+  top: 350px;
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+/*1 */
+.Schedules {
+  left: 88px;
+  top: 288px;
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+/*1 */
+.Transactions {
+  left: 88px;
+  top: 226px;
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+/*1 */
+.DashboardTitle {
+  left: 88px;
+  top: 164px;
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+/*1 */
+.Vector {
+  width: 27px;
+  height: 27px;
+  left: 910px;
+  top:3px;
+  position: absolute;
+  
+  transform-origin: 0 0;
+  
+}
+/*Schedule icon*/
+.ScheduleIcon {
+  width: 25px;
+  height: 25px;
+  left: 44px;
+  top: 285px;
+  position: absolute;
+}
+
+/* Dashboard icon*/
+.DashboardIcon {
+  width: 25px;
+  height: 25px;
+  left: 44px;
+  top: 160px;
+  position: absolute;
+}
+
+
+.SettingIcon {
+  width: 25px;
+  height: 25px;
+  left: 44px;
+  top: 408px;
+  position: absolute;
+}
+
+.transactionIcon1 {
+  width: 25px;
+  height: 25px;
+  left: 45px;
+  top: 220px;
+  position: absolute;
+}
+
+.transactionIcon2 {
+  width: 40px;
+  height: 40px;
+  left: 170px;
+  top: 10px;
+  position: absolute;
+}
+
+.UserIcon1 {
+  width: 25px;
+  height: 25px;
+  left: 45px;
+  top: 348px;
+  position: absolute;
+}
+
+.UserIcon2 {
+  width: 40px;
+  height: 40px;
+  left: 170px;
+  top: 10px;
+  position: absolute;
+  
+}
+
+
+
+.Board {
+  left: 50px;
+  top: 60px;
+  position: absolute;
+  color: white;
+  font-size: 36px;
+  font-family: Montserrat;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+/* */
+.TotalTransactions {
+  width: 221.05px;
+  height: 120px;
+  left: 637.89px;
+  top: 129px;
+  position: absolute;
+}
+
+.TotalTransactions .Card:nth-child(1) {
+  width: 221.05px;
+  height: 120px;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.TotalTransactions .Card:nth-child(1) .Card:nth-child(1) {
+  width: 221.05px;
+  height: 120px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background-image: linear-gradient(to top, #ecfd51 0%, #fdd654 100%);
+  border-radius: 20px;
+}
+
+.TotalTransactions .TotalTransactions {
+  width: 126px;
+  left: 25.11px;
+  top: 45px;
+  position: absolute;
+  color: black;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.TotalTransactions .FiveTwenty {
+  width: 65.26px;
+  left: 25.11px;
+  top: 67px;
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-family: Open Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.TotalRevenues {
+  width: 221.05px;
+  height: 120px;
+  left: 380px;
+  top: 129px;
+  position: absolute;
+}
+
+.TotalRevenues .Card:nth-child(1) {
+  width: 221.05px;
+  height: 120px;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.TotalRevenues .Card:nth-child(1) .Card:nth-child(1) {
+  width: 221.05px;
+  height: 120px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background-image: linear-gradient(to top, #c9fd51 0%, #54fd70 100%);
+  border-radius: 20px;
+}
+
+.TotalRevenues .TotalRevenues {
+  width: 124px;
+  left: 25px;
+  top: 45px;
+  position: absolute;
+  color: black;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.TotalRevenues .FourThirty {
+  width: 124px;
+  left: 25px;
+  top: 67px;
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-family: Open Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.RevenueIcon{
+  width: 40px;
+  height: 40px;
+  left: 170px;
+  top: 10px;
+  position: absolute;
+ 
+}
+
+.TotalLikes {
+  width: 221.05px;
+  height: 120px;
+  left: 895.79px;
+  top: 129px;
+  position: absolute;
+}
+
+.TotalLikes .Card:nth-child(1) {
+  width: 221.05px;
+  height: 120px;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.TotalLikes .Card:nth-child(1) .Card:nth-child(1) {
+  width: 221.05px;
+  height: 120px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background-image: linear-gradient(to top, #fd51b0 0%, #e954fd 100%);
+  border-radius: 20px;
+}
+
+.TotalLikes .TotalLikes {
+  width: 81px;
+  left: 25.21px;
+  top: 45px;
+  position: absolute;
+  color: black;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.TotalLikes .SevenTwentyOne {
+  width: 65.26px;
+  left: 25.58px;
+  top: 67px;
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-family: Open Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.LikeIcon {
+  width: 40px;
+  height: 40px;
+  left: 170px;
+  top: 10px;
+  position: absolute;
+  
+}
+
+.TotalUsers {
+  width: 221.05px;
+  height: 120px;
+  left: 1158.95px;
+  top: 129px;
+  position: absolute;
+}
+
+.TotalUsers .Card:nth-child(1) {
+  width: 221.05px;
+  height: 120px;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.TotalUsers .Card:nth-child(1) .Card:nth-child(1) {
+  width: 221.05px;
+  height: 120px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background-image: linear-gradient(to top, #51a1fd 0%, #5457fd 100%);
+  border-radius: 20px;
+}
+
+.TotalUsers .TotalUsers {
+  width: 85.26px;
+  left: 25.58px;
+  top: 45px;
+  position: absolute;
+  color: black;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.TotalUsers div:nth-child(4) {
+  width: 44.21px;
+  left: 25.58px;
+  top: 67px;
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-family: Open Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.ActivitiesCard {
+  width: 1000px;
+  height: 359px;
+  left: 380px;
+  top: 289px;
+  position: absolute;
+}
+
+.ActivitiesCard .Card:nth-child(1) {
+  width: 1000px;
+  height: 359px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.ActivitiesCard .Card:nth-child(1) .Card:nth-child(1) {
+  width: 1000px;
+  height: 359px;
+  background-color: white;/* for browsers that doesnot support linear gradient*/
+  border-radius: 20px;
+  background-image: linear-gradient(rgb(255, 193, 247), rgb(214, 168, 252), rgb(191, 195, 255), rgb(207, 252, 255));
+}
+
+.ActivitiesCard .Guest {
+  width: 42px;
+  left: 808px;
+  top: 49px;
+  position: absolute;
+  color: black;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.ActivitiesCard .User {
+  width: 34px;
+  left: 906px;
+  top: 49px;
+  position: absolute;
+  color: black;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.ActivitiesCard .Activities {
+  width: 93px;
+  left: 40px;
+  top: 30px;
+  position: absolute;
+  color: black;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.ActivitiesCard .Group7 {
+  width: 124px;
+  height: 17px;
+  left: 40px;
+  top: 57px;
+  position: absolute;
+  
+}
+
+.ActivitiesCard .Group7 .MayJune2021 {
+  width: 111px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  color: #780088;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.TopProductsCard .MayJune2021 {
+  
+  color: #940226;
+  
+}
+
+
+.ActivitiesCard .Chart {
+  width: 921px;
+  height: 212px;
+  left: 0px;
+  top: 105px;
+  position: absolute;
+}
+
+.my-legend {
+  font-weight: bold;
+}
+
+span.recharts-legend-item-text {
+  font-weight: bold;
+  font-size: 25px;
+  padding-right:30px;
+  
+}
+
+
+
+.TopProductsCard {
+  width: 480px;
+  height: 256px;
+  left: 380px;
+  top: 688px;
+  position: relative;
+}
+
+.TopProductsCard .Card {
+
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.TopProductsCard .Card .Card {
+  width: 100%;
+  height: 100%;
+  background-color: white;/*for browsers not supporting linear gradient*/
+  background-image: linear-gradient(rgb(255, 253, 154), rgb(252, 226, 156), rgb(255, 176, 174));
+  border-radius: 20px;
+}
+
+
+
+.TopProductsCard .MayJune2021 {
+  width: 97px;
+  left: 327px;
+  top: 31px;
+  position: absolute;
+  color: #ad0303;
+  font-size: 12px;
+  font-family: Montserrat;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.TopProductsCard {
+  position: relative;
+  
+}
+
+.TopProductsCard .TopProducts {
+  left: 40px;
+  top: 30px;
+  position: absolute;
+  color: black;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.TopProductsCard .PieChart {
+  width: 134px;
+  height: 134px;
+  left: 40px;
+  top: 80px;
+  position:relative;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* Style the pie chart segments */
+.segment {
+  position: relative;
+  width: 134px;
+  height: 134px;
+  border-radius: 50%;
+  overflow:hidden;
+  /* opacity: 0; */
+
+  /* margin: 0 auto; */
+  
+}
+
+.segment div {
+  position: relative;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 50%;
+  border-radius: 100% 100% 0 0;
+  transform-origin:bottom center;
+  /* transform: rotate(0); */
+}
+
+.segment1 {
+  z-index: 3;
+  background-color: #ffff00;
+  animation: fade-in 1s ease-in-out forwards;
+  transform: translateY(-95%) rotate(199deg);
+  
+}
+
+.segment2 {
+  z-index: 2;
+  background-color:#ff0000;
+  animation: fade-in 1s ease-in-out 0.2s forwards;
+  transform: translateY(-136px) rotate(160deg);
+}
+
+.segment3 {
+  
+  z-index: 1;
+  background-color: #ff9900;
+  animation: fade-in 1s ease-in-out 0.4s forwards;
+  transform: translateY(-201px) rotate(355deg);
+}
+
+
+
+
+.SchedulesCard {
+  width: 480px;
+  height: 256px;
+  left: 900px;
+  top: 688px;
+  position: absolute;
+}
+
+.SchedulesCard .Card {
+  width: 480px;
+  height: 256px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.SchedulesCard .Card .Card {
+  width: 480px;
+  height: 256px;
+  background: white;/*for browser that doesnot support linear gradient*/
+  background-image: linear-gradient(rgb(184, 255, 170), rgb(156, 252, 239), rgb(175, 174, 255));
+  border-radius: 20px;
+}
+
+.SchedulesCard .TodaySSchedule {
+  left: 40px;
+  top: 30px;
+  position: absolute;
+  color: black;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.SchedulesCard .Group19 {
+  width: 251px;
+  height: 66px;
+  left: 40px;
+  top: 77px;
+  position: absolute;
+}
+
+.SchedulesCard .Group19 .MeetingWithSuppliersFromKutaBali {
+  left: 15px;
+  top: 3px;
+  position: absolute;
+  color: #01420a;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.SchedulesCard .Group19 .Fourteen {
+  left: 15px;
+  top: 25px;
+  position: absolute;
+  color: #037212;
+  font-size: 12px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.SchedulesCard .Group19 .AtSunsetRoadKutaBali {
+  left: 15px;
+  top: 44px;
+  position: absolute;
+  color: #037212;
+  font-size: 12px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.SchedulesCard .Group19 .Line6 {
+  width: 66px;
+  height: 0;
+  left: 0;
+  top: 0;
+  position: absolute;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  border: 2.50px #00ff00 solid;
+}
+
+.SchedulesCard .SeeAll {
+  left: 398px;
+  top: 34px;
+  position: absolute;
+  color: #0496bb;
+  font-size: 12px;
+  font-family: Montserrat;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.SchedulesCard .Vector {
+  width: 10px;
+  height: 0px;
+  left: 480px;
+  top: 45px;
+  position: absolute;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  color: #170149;
+}
+
+.SchedulesCard .Group20 {
+  width: 227px;
+  height: 66px;
+  left: 40px;
+  top: 156px;
+  position: absolute;
+}
+
+.SchedulesCard .Group20 .CheckOperationAtGigaFactory1 {
+  left: 15px;
+  top: 3px;
+  position: absolute;
+  color: #170149;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.SchedulesCard .Group20 .Eighteen {
+  left: 15px;
+  top: 25px;
+  position: absolute;
+  color: #003477;
+  font-size: 12px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.SchedulesCard .Group20 .AtCentralJakarta  {
+  left: 15px;
+  top: 44px;
+  position: absolute;
+  color: #003477;
+  font-size: 12px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.SchedulesCard .Group20 .Line6 {
+  width: 66px;
+  height: 0;
+  left: 0;
+  top: 0;
+  position: absolute;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  border: 2.50px #3333ff solid;
+}
+
+ /* .......... */
+ .Dashboard {
+  left: 0;
+  top: 0;
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.SearchBar {
+  width: 180px;
+  height: 30px;
+  left: 713px;
+  top: 0;
+  position: absolute;
+}
+
+.White {
+  width: 180px;
+  height: 30px;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.Button {
+  width: 180px;
+  height: 30px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: white;
+  border-radius: 10px;
+}
+
+.Search {
+  left: 15px;
+  top: 6px;
+  position: absolute;
+  color: #B0B0B0;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.SearchIcon {
+  width: 12px;
+  height: 12px;
+  left: 153px;
+  top: 9px;
+  position: absolute;
+}
+
+.Ellipse2 {
+  width: 10px;
+  height: 10px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: none;
+  border-radius: 9999px;
+  border: 0.50px #858585 solid;
+}
+
+.Line2 {
+  width: 5.66px;
+  height: 0;
+  left: 8px;
+  top: 8px;
+  position: absolute;
+  transform: rotate(45deg);
+  transform-origin: 0 0;
+  border: 0.50px #858585 solid;
+}
+
+.MaskGroup {
+  width: 30px;
+  height: 30px;
+  left: 970px;
+  top: 0;
+  position: absolute;
+}
+
+.Ellipse1 {
+  width: 30px;
+  height: 30px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: #C4C4C4;
+  border-radius: 9999px;
+}
+
+.Image1 {
+  width: 52px;
+  height: 51px;
+  left: -20px;
+  top: -10px;
+  position: absolute;
+}
+
+.Header {
+  width: 1000px;
+  height: 30px;
+  left: 380px;
+  top: 60px;
+  position: absolute;
+}
+
+.ChartWeeks {
+  left: 559px;
+  top: 604px;
+  position: absolute;
+}
+
+.Ellipse6 {
+  z-index: 1;
+  width: 11px;
+  height: 11px;
+  background-color: '#98D89E';
+  border-radius: 9999;
+}
+/*  */
+.Container {
+  position: relative;
+}
+
+.LegendContainer {
+  left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+div.Legend {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  font-size: large;
+  position: absolute;
+  line-height: 100px;
+  top: 100px;
+  right: 100px;
+}
+
+.Ellipse5 {
+  z-index: 1;
+  width: 11px;
+  height: 11px;
+  background-color: '#98D89E';
+  border-radius: 9999;
+}
+
+.Ellipse7 {
+  z-index: 1;
+  width: 11px;
+  height: 11px;
+  background-color: '#98D89E';
+  border-radius: 9999;
+}
+
+.Ellipse8 {
+  z-index: 1;
+  width: 11px;
+  height: 11px;
+  background-color: '#98D89E';
+  border-radius: 9999;
+}
+
+
+
+
+.BasicTees {
+  left: 50px;
+  top: 50px;
+  color: 'black';
+  font-size: 14;
+  font-family: 'Montserrat';
+  font-weight: '700';
+  word-wrap: 'break-word';
+  
+}
+
+.CustomShortPants {
+  
+  color: 'black';
+  font-size: 14;
+  font-family: 'Montserrat';
+  font-weight: '700';
+  word-wrap: 'break-word';
+}
+
+div.SuperHoodies {
+  left: 20px;
+  color: 'black';
+  font-size: 14;
+  font-family: 'Montserrat';
+  font-weight: '700';
+  word-wrap: 'break-word';
+}
+
+.Key1{
+  width: 98px;
+  height: 36px;
+  left: 244px;
+  top: 66px;
+  position: absolute;
+  background-color: #ff0000;
+  line-height: 22px;
+}
+
+.Key2{
+  width: 168px;
+  height: 36px;
+  left: 244px;
+  top: 124px;
+  position: absolute;
+  background-color: #ffff00;
+  line-height: 22px;
+}
+
+.Key3{
+  width: 128px;
+  height: 36px;
+  left: 244px;
+  top: 180px;
+  position: absolute;
+  background-color: #ff9900 ;
+  line-height: 22px;
+}
+
+
+
+
+
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    
+  }
+  to {
+    opacity: 1;
+    
+  }
+}
+
+
+
+

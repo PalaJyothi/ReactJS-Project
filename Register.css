@@ -1,0 +1,189 @@
+.Register {
+    text-align: center;
+    background-image: linear-gradient(to top, #8551fd 0%, #fd54d0 100%);
+    align-items: center;
+    justify-content: center;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.RegisterTitle{
+    font-size: calc(15px + 2vmin);
+    color: rgb(243, 226, 226);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Board {
+    margin: 50px 0;
+    color: rgb(0, 0, 0);
+    font-size: 72px;
+    font-family: Montserrat;
+    font-weight: 700;
+    word-wrap: break-word;
+    background-size: cover ;
+}
+
+.RegisterForm {
+    background-color: #ececfd;
+    padding: 50px;
+    border-radius: 10px;
+    width: 40%;
+}
+.FullName, .EmailAddress, .Password, .ConfirmPassword {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: 600;
+    color: #1e003a;
+}
+.InputField {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px ;
+    margin-bottom: 20px;
+    font-size: 16px;
+    outline: none;
+}
+.Input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px ;
+    margin-bottom: 20px;
+    font-size: 16px;
+    outline: none;
+}
+.ButtonRegister {
+    background-color: #61dafb;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.ButtonRegister:hover {
+    background-color: #4188ac;
+}
+.HaveAnAccountSignInHere {
+    margin: 20px 0;
+}
+.HaveAnAccountSignInHere span {
+    color: #4A4A4A;
+    font-weight: 500;
+}
+.HaveAnAccountSignInHere span:last-child {
+    color: #61dafb;
+    cursor: pointer;
+}
+.GoogleSignIn, .AppleSignIn {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.White {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.GoogleIcon1, .Apple1 {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.GoogleIcon1 .G img, .Apple1 .A img {
+    height: 80%;
+    width: 80%;
+}
+.SignInWithGoogle, .SignInWithApple {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4A4A4A;
+}
+.Register {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4A4A4A;
+}
+.RegisterForAnAccount {
+    font-size: 20px;
+    font-weight: 500;
+    color: #46324d;
+    margin-bottom: 50px;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  /* styles for screens up to 768 pixels wide */
+  .Register {
+    font-size: 25px;
+  }
+  .RegisterForm {
+    width: 80%;
+  }
+  .LeftSide,
+  .RightSide {
+    width: 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* styles for screens up to 480 pixels wide */
+  .Board {
+    font-size: 48px;
+    margin: 40px 0;
+  }
+  .Register {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .RegisterForAnAccount {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .RegisterForm {
+    padding: 20px;
+  }
+  .FullName, .EmailAddress, .Password, .ConfirmPassword {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .InputField,
+  .Input {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .ButtonRegister {
+    font-size: 16px;
+    padding: 5px 15px;
+  }
+  .HaveAnAccountSignInHere {
+    margin: 10px 0;
+  }
+  .SignInWithGoogle, .SignInWithApple {
+    font-size: 16px;
+  }
+}
